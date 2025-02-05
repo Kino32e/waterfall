@@ -8,7 +8,7 @@
         <view class="text-container">
           <text class="name">{{item.name}}</text>
           <text class="desc">{{item.desc}}</text>
-          <text class="price">{{item.price}}</text>
+          <text class="price">￥{{item.price}}</text>
         </view>
       </view>
     </block>
@@ -20,7 +20,7 @@
         <view class="text-container">
           <text class="name">{{item.name}}</text>
           <text class="desc">{{item.desc}}</text>
-          <text class="price">{{item.price}}</text>
+          <text class="price">￥{{item.price}}</text>
         </view>
       </view>
     </block>
