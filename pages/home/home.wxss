@@ -1,0 +1,52 @@
+/* pages/home/home.wxss */
+.list {
+  display: flex;
+  flex: 1;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  background-color: #efefef;
+}
+
+.half-list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 359rpx;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+
+.item image {
+  width: 100%;
+  display: block;
+}
+
+.text-container {
+  padding: 20rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container .name {
+  font-weight: bold;
+}
+
+.text-container .desc {
+  font-size: small;
+  margin-top: 10rpx;
+}
+
+.text-container .price {
+  color: rgb(150, 28, 28);
+  margin: 20rpx auto;
+}

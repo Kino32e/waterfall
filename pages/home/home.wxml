@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view class="list">
+  <view class="half-list">
+    <block wx:for="{{leftList}}" wx:key="id">
+      <view class="item">
+        <image src="{{item.picture}}" mode="widthFix"></image>
+        <view class="text-container">
+          <text class="name">{{item.name}}</text>
+          <text class="desc">{{item.desc}}</text>
+          <text class="price">{{item.price}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="half-list">
+    <block wx:for="{{rightList}}" wx:key="id">
+      <view class="item">
+        <image src="{{item.picture}}" mode="widthFix"></image>
+        <view class="text-container">
+          <text class="name">{{item.name}}</text>
+          <text class="desc">{{item.desc}}</text>
+          <text class="price">{{item.price}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
