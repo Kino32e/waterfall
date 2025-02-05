@@ -26,8 +26,9 @@
   background-color: #fff;
 }
 
-.item image {
+.lazy-img {
   width: 100%;
+  object-fit: contain;
   display: block;
 }
 

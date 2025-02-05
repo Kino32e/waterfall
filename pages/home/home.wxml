@@ -3,7 +3,8 @@
   <view class="half-list">
     <block wx:for="{{leftList}}" wx:key="id">
       <view class="item">
-        <image src="{{item.picture}}" mode="widthFix"></image>
+        <mina-lazy-image placeholder="" src="{{item.picture}}" image-class="lazy-img"/>
+        <!-- <image src="{{item.picture}}" mode="widthFix" lazy-load="{{true}}"></image> -->
         <view class="text-container">
           <text class="name">{{item.name}}</text>
           <text class="desc">{{item.desc}}</text>
@@ -15,7 +16,7 @@
   <view class="half-list">
     <block wx:for="{{rightList}}" wx:key="id">
       <view class="item">
-        <image src="{{item.picture}}" mode="widthFix"></image>
+        <mina-lazy-image placeholder="" src="{{item.picture}}" mode="widthFIx" image-class="lazy-img"/>
         <view class="text-container">
           <text class="name">{{item.name}}</text>
           <text class="desc">{{item.desc}}</text>
